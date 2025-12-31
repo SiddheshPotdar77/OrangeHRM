@@ -6,4 +6,8 @@ export const config = {
     browserHeight: 720, 
     username: "admin", 
     password: "password123", 
+    firstName:"Siddhesh",
+    lastName:"Sonar",
+    email:"siddheshpotdar55@gmail.com",
+    comment:"Enter my info"
   };
