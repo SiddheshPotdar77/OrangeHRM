@@ -1,7 +1,7 @@
 import { Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
 import { HomePage } from "./HomePage";
-//import { ContactUsPage } from "../contact-us.page";
+import { ContactUsPage } from "./Contact-usPage"
 import { LoginPage } from "./LoginPage";
 
 export class PageManager {
@@ -27,9 +27,9 @@ export class PageManager {
     return new HomePage(this);
   }
 
- /* createContactUsPage(): ContactUsPage {
+  createContactUsPage(): ContactUsPage {
     return new ContactUsPage(this);
-  }*/
+  }
 
   createLoginePage(): LoginPage {
     return new LoginPage(this);

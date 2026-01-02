@@ -42,10 +42,7 @@ export class BasePage {
 
     // The click that opens the new tab should happen outside
     const newPage = await newPagePromise;
-
-    await newPage.bringToFront(); 
-
-
+    await newPage.bringToFront();
     this.pageManager.page = newPage; // update the central page
   }
 }
