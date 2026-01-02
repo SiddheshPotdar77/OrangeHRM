@@ -1,0 +1,3 @@
+02/01/2026, 06:08:36 [INFO]: Accessing URL: http://www.webdriveruniversity.com/Click-Buttons/index.html
+02/01/2026, 06:08:36 [INFO]: Click on Click Me Button
+02/01/2026, 06:08:36 [INFO]: Popup Message: Well done for successfully using the click() method!

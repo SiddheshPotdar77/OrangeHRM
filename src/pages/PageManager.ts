@@ -3,6 +3,7 @@ import { BasePage } from "./BasePage";
 import { HomePage } from "./HomePage";
 import { ContactUsPage } from "./Contact-usPage"
 import { LoginPage } from "./LoginPage";
+import {ButtonPage} from "./ButtonPage";
 
 export class PageManager {
   private currentPage: Page;
@@ -29,6 +30,10 @@ export class PageManager {
 
   createContactUsPage(): ContactUsPage {
     return new ContactUsPage(this);
+  }
+
+  createButtonPage(): ButtonPage {
+    return new ButtonPage(this);
   }
 
   createLoginePage(): LoginPage {

@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: './test',
   timeout: 5000,
   outputDir: 'results',
-  reporter: [['list'], ['html']],
+  reporter: [['list'], ['html'],['allure-playwright']],
   projects: [
     {
       name: 'Chrome',
