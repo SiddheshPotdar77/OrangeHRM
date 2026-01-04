@@ -1,0 +1,5 @@
+03/01/2026, 04:05:39 [INFO]: Accessing URL: http://www.webdriveruniversity.com/Login-Portal/index.html
+03/01/2026, 04:05:39 [INFO]: Entered Username as: admin
+03/01/2026, 04:05:40 [INFO]: Entered Password as: password123
+03/01/2026, 04:05:40 [INFO]: Alert message: validation failed
+03/01/2026, 04:05:40 [INFO]: Clicked on the login button
